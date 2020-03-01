@@ -1,0 +1,50 @@
+/* CSS File */
+body{
+	background: #efefef;
+	font-family: arial;
+	font-size: 16px;
+}
+
+div{
+	color: white; 
+  background-color: #F&F0EF; 
+  margin: 2px; 
+  font-size: 25px; 
+	
+}
+h1{
+font-size: 32px;
+color: #aa0102;
+}
+h2{
+font-size: 30px;
+color: #00bb03;
+}
+h3{
+font-size: 28px;
+color: #00ff03;
+}
+h4{
+font-size: 26px;
+color: #1f0277;
+}
+h5{
+font-size: 24px;
+color: #7001c3;
+}
+h6{
+font-size: 22px;
+color: #02dd03;
+}
+
+a{
+color: #EE00FF;
+text-decoration: underline;
+	
+}
+
+a:hover{
+	color:#FF0000;
+	text-decoration: none;
+}
+
