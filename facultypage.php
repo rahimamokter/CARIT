@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>CAREIT</title>
+		<title>CARIT</title>
 	<link rel="stylesheet" href="styles.css">	
 	</head>
 	
 	<body style="background-color:#ECD1CB">
 
 
-	<center><h1>Welcome to the CAREIT Resources</h1></center>
+	<center><h1>Welcome to the CARIT Resources</h1></center>
 	
 	
-	<center><img src="images/CAREITlogo.jpg" alt="CAREITLogo"></center>
+	<center><img src="images/CARITlogo.jpg" alt="CARITLogo"></center>
+	
 	
 
-<p>
+<center>
+<h4>
+<table style="width:50%">
+  <tr>
+    <th><a href="index.php">Home Page</a></th>
+	<th><a href="aboutus.php">About Us</a></th>
+	<th><a href="resources.php">Resources</a> </th>
+	<th><a href="appform.php">Application Form</a> </th>
+	
+	
+  </tr>
+
+</table>
+</h4>
+</center>
+	
+
+
 Through offices in the United States and Offshore, 
 we provide IT products & services to Federal and State Governments, 
 to Fortune more Companies, and to emerging growth businesses. 
-We support such business sectors as Financial Services, Banking, 
+<p>We support such business sectors as Financial Services, Banking, 
 Insurance, Retail, Healthcare, Manufacturing, Telecom, Pharmaceuticals, Oil & Gas, 
 and Transportation & Other Industries. </p>
 <br>
@@ -31,6 +49,8 @@ and Transportation & Other Industries. </p>
 		<li>Job placement.</li>
 		</ul>
 		
+		
+		
 
  	   
 		<h2> DON'T MISS OUR NEW YEARS SAVINGS HURRY BEFORE THEY ARE GONE</h2>
@@ -39,20 +59,20 @@ and Transportation & Other Industries. </p>
 		<h1>_____________________________________________________________________________________________</h1>
 		
 		<h1>NEWS HEADLINES</h1>
-		<h2><p style= "background-color:gray;">Corona Virus is getting serious all over the world.</p></h2>
+		<h2><p style= "background-color:white;">Corona Virus is getting serious all over the world.</p></h2>
 		<br>
 		
 		<br>
 		<br>
 		
 		<br>
-		<h2>T$LA stocks go up by 2.87 due to recent increase of teslas bought</h2>
-		<br>
+		
 <table style="width:50%">
   <tr>
-    <th><a href="index.html">Home Page</a></th>
-	<th><a href="aboutus.html">About Us</a></th>
-    <th><a href="facultypage.html">Faculty Page</a> </th>
+    <th><a href="index.php">Home Page</a></th>
+	<th><a href="aboutus.php">About Us</a></th>
+    <th><a href="facultypage.php">Faculty Page</a> </th>
+	<th><a href="appform.php">Application Form</a> </th>
 	
   </tr>
 

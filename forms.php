@@ -77,7 +77,9 @@
 </head>
 <body>
     <h1>JavaScript and HTML Forms</h1>
-    
+    <form action="/my-handling-form-page" method="post">
+	
+	</form>
     <form id="form-user" action="#" method="post">
         <div class="form-box error" data-errormsg="">
             <label for="input-first">First</label>
@@ -94,7 +96,7 @@
         <div class="form-box" data-errormsg="">
             <label for="input-age">Age</label>
             <select id="input-age" tabindex="4">
-                <option value="0">Under 20</option>
+                <option value="0">Database Design</option>
                 <option value="1">20-30</option>
                 <option value="2">30-40</option>
                 <option value="3">40-50</option>

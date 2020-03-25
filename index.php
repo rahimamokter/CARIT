@@ -8,12 +8,12 @@
 	<body style="background-color:#ECD1CB">
 
 
-	<center><h1>Welcome to the Homepage of CARIT </h1></center>
+	<center><h1>Center for Research in Information Technology </h1></center>
 	
 	
 	<center><img src="images/CARITlogo.jpg" alt="CARITLogo"></center>
 	<center>
-		<h2>CARIT is a best solution for beginners.</h2>
+		<h2>Welcome to the Homepage of CARIT</h2>
 		</center>
 		
 		
@@ -22,10 +22,10 @@
 <h4>
 <table style="width:50%">
   <tr>
-    <th><a href="index.html">Home Page</a></th>
-	<th><a href="aboutus.html">About Us</a></th>
-	<th><a href="resources.html">Resources</a> </th>
-	<th><a href="appform.html">Application Form</a> </th>
+    <th><a href="index.php">Home Page</a></th>
+	<th><a href="aboutus.php">About Us</a></th>
+	<th><a href="resources.php">Resources</a> </th>
+	<th><a href="appform.php">Application Form</a> </th>
 	
 	
   </tr>
@@ -125,11 +125,10 @@ and Transportation & Other Industries. </p>
 <h4>
 <table style="width:50%">
   <tr>
-    <th><a href="index.html">Home Page</a></th>
-	<th><a href="aboutus.html">About Us</a></th>
-	<th><a href="resources.html">Resources</a> </th>
-	<th><a href="appform.html">Application Form</a> </th>
-	
+    <th><a href="index.php">Home Page</a></th>
+	<th><a href="aboutus.php">About Us</a></th>
+	<th><a href="resources.php">Resources</a> </th>
+ 	
 	
   </tr>
 
