@@ -28,6 +28,7 @@ echo "    <th><a href=\"facultypage.php\">Faculty Page</a> </th>\n";
 echo "	<th><a href=\"resources.php\">Resources</a> </th>\n";
 echo "	<th><a href=\"appform.php\">Application Form</a> </th>\n";
 echo "	<th><a href=\"programs.php\">Programs</a> </th>\n";
+echo " \n";
 echo "	<th><a href=\"services.php\">Services</a> </th>\n";
 
 echo "	\n";
@@ -169,6 +170,7 @@ echo "    <th><a href=\"facultypage.php\">Faculty Page</a> </th>\n";
 echo "	<th><a href=\"resources.php\">Resources</a> </th>\n";
 echo "	<th><a href=\"appform.php\">Application Form</a> </th>\n";
 echo "	<th><a href=\"programs.php\">Programs</a> </th>\n";
+echo " \n";
 echo "	<th><a href=\"services.php\">Services</a> </th>\n";
 
 echo "	\n";

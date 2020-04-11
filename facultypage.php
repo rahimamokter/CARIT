@@ -1,101 +1,111 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>CARIT</title>
-	<link rel="stylesheet" href="styles.css">	
-	</head>
-	
-	<body style="background-color:#ECD1CB">
+<?php
+echo "<!DOCTYPE html>\n";
+echo "<html>\n";
+echo "	<head>\n";
+echo "		<title>CARIT</title>\n";
+echo "	<link rel=\"stylesheet\" href=\"styles.css\">	\n";
+echo "	</head>\n";
+echo "	\n";
+echo "	<body style=\"background-color:#ECD1CB\">\n";
+echo "\n";
+echo "\n";
+echo "	<center><h1>Welcome to the CARIT Resources</h1></center>\n";
+echo "	\n";
+echo "	\n";
+echo "	<center><img src=\"images/CARITlogo.jpg\" alt=\"CARITLogo\"></center>\n";
+echo "	\n";
+echo "	\n";
+echo "\n";
+echo "<center>\n";
+echo "<h6>\n";
+echo "<table style=\"width:80%\">\n";
+echo "  <tr>\n";
+echo "    <th><a href=\"index.php\">Home Page</a></th>\n";
+echo "	<th><a href=\"aboutus.php\">About Us</a></th>\n";
+echo "    <th><a href=\"facultypage.php\">Faculty Page</a> </th>\n";
+echo "	<th><a href=\"resources.php\">Resources</a> </th>\n";
+echo "	<th><a href=\"appform.php\">Application Form</a> </th>\n";
+echo "	<th><a href=\"programs.php\">Programs</a> </th>\n";
+echo "	<th><a href=\"services.php\">Services</a> </th>\n";
 
+echo "	\n";
+echo "	\n";
+echo "  </tr>\n";
+echo "\n";
+echo "</table>\n";
+echo "</h6>\n";
+echo "</center>\n";
+echo "	\n";
+echo "\n";
+echo "\n";
+echo "Through offices in the United States and Offshore, \n";
+echo "we provide IT products & services to Federal and State Governments, \n";
+echo "to Fortune more Companies, and to emerging growth businesses. \n";
+echo "<p>We support such business sectors as Financial Services, Banking, \n";
+echo "Insurance, Retail, Healthcare, Manufacturing, Telecom, Pharmaceuticals, Oil & Gas, \n";
+echo "and Transportation & Other Industries. </p>\n";
+echo "<br>\n";
+echo "\n";
+echo "   <h3> <p> Our Mission and Vision:</p></h3>\n";
+echo "	  <ul>\n";
+echo "	      <li>Provide the best qualilty.</li> \n";
+echo "          <li>Flexible schedule.</li>\n";
+echo "          <li>Affordable tuition fees.</li>\n";
+echo "		<li>Job placement.</li>\n";
+echo "		</ul>\n";
+echo "		\n";
+echo "		\n";
+echo "		\n";
+echo "\n";
+echo " 	   \n";
+echo "		<h2> DON'T MISS OUR NEW YEARS SAVINGS HURRY BEFORE THEY ARE GONE</h2>\n";
+echo "		<br>\n";
+echo "		<br>\n";
+echo "		<h1>_____________________________________________________________________________________________</h1>\n";
+echo "		\n";
+echo "		<h1>NEWS HEADLINES</h1>\n";
+echo "		<h2><p style= \"background-color:white;\">Corona Virus is getting serious all over the world.</p></h2>\n";
+echo "		<br>\n";
+echo "		\n";
+echo "		<br>\n";
+echo "		<br>\n";
+echo "		\n";
+echo "		<br>\n";
+echo "		<h2>T$LA stocks go up by 2.87 due to recent increase of teslas bought</h2>\n";
+echo "		<br>\n";
+echo "<table style=\"width:80%\">\n";
+echo "  <tr>\n";
+echo "    <th><a href=\"index.php\">Home Page</a></th>\n";
+echo "	<th><a href=\"aboutus.php\">About Us</a></th>\n";
+echo "    <th><a href=\"facultypage.php\">Faculty Page</a> </th>\n";
+echo "	<th><a href=\"appform.php\">Application Form</a> </th>\n";
+echo "	<th><a href=\"programs.php\">Programs</a> </th>\n";
+echo "	<th><a href=\"services.php\">Services</a> </th>\n";
 
-	<center><h1>Welcome to the CARIT Resources</h1></center>
-	
-	
-	<center><img src="images/CARITlogo.jpg" alt="CARITLogo"></center>
-	
-	
-
-<center>
-<h4>
-<table style="width:50%">
-  <tr>
-    <th><a href="index.php">Home Page</a></th>
-	<th><a href="aboutus.php">About Us</a></th>
-	<th><a href="resources.php">Resources</a> </th>
-	<th><a href="appform.php">Application Form</a> </th>
-	
-	
-  </tr>
-
-</table>
-</h4>
-</center>
-	
-
-
-Through offices in the United States and Offshore, 
-we provide IT products & services to Federal and State Governments, 
-to Fortune more Companies, and to emerging growth businesses. 
-<p>We support such business sectors as Financial Services, Banking, 
-Insurance, Retail, Healthcare, Manufacturing, Telecom, Pharmaceuticals, Oil & Gas, 
-and Transportation & Other Industries. </p>
-<br>
-
-   <h3> <p> Our Mission and Vision:</p></h3>
-	  <ul>
-	      <li>Provide the best qualilty.</li> 
-          <li>Flexible schedule.</li>
-          <li>Affordable tuition fees.</li>
-		<li>Job placement.</li>
-		</ul>
-		
-		
-		
-
- 	   
-		<h2> DON'T MISS OUR NEW YEARS SAVINGS HURRY BEFORE THEY ARE GONE</h2>
-		<br>
-		<br>
-		<h1>_____________________________________________________________________________________________</h1>
-		
-		<h1>NEWS HEADLINES</h1>
-		<h2><p style= "background-color:white;">Corona Virus is getting serious all over the world.</p></h2>
-		<br>
-		
-		<br>
-		<br>
-		
-		<br>
-		
-<table style="width:50%">
-  <tr>
-    <th><a href="index.php">Home Page</a></th>
-	<th><a href="aboutus.php">About Us</a></th>
-    <th><a href="facultypage.php">Faculty Page</a> </th>
-	<th><a href="appform.php">Application Form</a> </th>
-	
-  </tr>
-
-</table>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<h5>Address: 1005 Paradise Rd, Atlanata, GA 30339. Phone: 404-345-6789</h5>
-		<br>
-		<br>
-		<br>
-		<br>
-	</center>
-		<br>
-		<br>
-		<h4>This is a class project <a href=""/a>
-		
-		
-		
-
-
-	</body>
-</html>
+echo "	\n";
+echo "  </tr>\n";
+echo "\n";
+echo "</table>\n";
+echo "		<br>\n";
+echo "		<br>\n";
+echo "		<br>\n";
+echo "		<br>\n";
+echo "		<br>\n";
+echo "		<br>\n";
+echo "		<h5>Address: 1005 Paradise Rd, Atlanata, GA 30339. Phone: 404-345-6789</h5>\n";
+echo "		<br>\n";
+echo "		<br>\n";
+echo "		<br>\n";
+echo "		<br>\n";
+echo "	</center>\n";
+echo "		<br>\n";
+echo "		<br>\n";
+echo "		<h4>This is a class project <a href=\"\"/a>\n";
+echo "		\n";
+echo "		\n";
+echo "		\n";
+echo "\n";
+echo "\n";
+echo "	</body>\n";
+echo "</html>\n";
+?>

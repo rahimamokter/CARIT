@@ -1,151 +1,161 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>CARIT- Student Application Form</title>
-	<link rel="stylesheet" href="styles.css">	
-	</head>
-	
-	<body style="background-color:#ECD1CB">
+<?php
+echo "<!DOCTYPE html>\n";
+echo "<html>\n";
+echo "	<head>\n";
+echo "		<title>CARIT- Student Application Form</title>\n";
+echo "	<link rel=\"stylesheet\" href=\"styles.css\">	\n";
+echo "	</head>\n";
+echo "	\n";
+echo "	<body style=\"background-color:#ECD1CB\">\n";
+echo "\n";
+echo "    <script src=\"./forms.js\"></script>\n";
+echo "\n";
+echo "	<center><h1>Welcome to the Homepage of CARIT </h1></center>\n";
+echo "	\n";
+echo "\n";
+echo "\n";
+echo "<center>\n";
+echo "<h6>\n";
+echo "<table style=\"width:80%\">\n";
+echo "  <tr>\n";
+echo "    <th><a href=\"index.php\">Home Page</a></th>\n";
+echo "	<th><a href=\"aboutus.php\">About Us</a></th>\n";
+echo "    <th><a href=\"facultypage.php\">Faculty Page</a> </th>\n";
+echo "	<th><a href=\"resources.php\">Resources</a> </th>\n";
+echo "	<th><a href=\"appform.php\">Application Form</a> </th>\n";
+echo "	<th><a href=\"programs.php\">Programs</a> </th>\n";
+echo "	<th><a href=\"services.php\">Services</a> </th>\n";
 
-    <script src="./forms.js"></script>
+echo "	\n";
+echo "	\n";
+echo "  </tr>\n";
+echo "\n";
+echo "</table>\n";
+echo "</h6>\n";
+echo "</center>\n";
+echo "\n";
+echo "		<br>\n";
+echo "		<br>\n";
+echo "\n";
+echo "	\n";
+echo "<div>\n";
+echo "CARIT has four student assistant positions open in this upcoming Summer.\n";
+echo "In order to be considerd for such a position, a student has to complete some required courses and meet the minimum aversge grade of these required classes requirement\".\n";
+echo "Purpose of this page is to make a form and check the eligibility for these positions.\n";
+echo "\n";
+echo "\n";
+echo "</div>\n";
+echo "<br>\n";
+echo "<br>\n";
+echo "<br>\n";
+echo "<br>\n";
+echo "\n";
+echo "\n";
+echo "<form id=\"form-user\" action=\"#\" method=\"post\">\n";
+echo "        <div class=\"form-box error\" data-errormsg=\"\">\n";
+echo "            <label for=\"input-first\">Enter your name</label>\n";
+echo "            <input type=\"text\" id=\"input-first\" autofocus placeholder=\"Name\" tabindex=\"1\"/>\n";
+echo "        </div>\n";
+echo "		\n";
+echo "        <div class=\"form-box\" data-errormsg=\"\">\n";
+echo "            <label for=\"input-email\">E-mail address</label>\n";
+echo "            <input type=\"email\" id=\"input-email\" required placeholder=\"E-mail\" tabindex=\"2\" />\n";
+echo "        </div>\n";
+echo "		\n";
+echo "		<div class=\"form-box\" data-errormsg=\"\">\n";
+echo "            <label for=\"input-email\">Mailing address</label>\n";
+echo "            <input type=\"email\" id=\"input-mailing\" required placeholder=\"Mailing Address\" tabindex=\"3\" />\n";
+echo "        </div>\n";
+echo "		\n";
+echo "		<div class=\"form-box\" data-errormsg=\"\">\n";
+echo "            <label for=\"input-undergradOr\">Major</label>\n";
+echo "            <input type=\"email\" id=\"input-major\" required placeholder=\"Major\" tabindex=\"4\" />\n";
+echo "        </div>\n";
+echo "		\n";
+echo "		\n";
+echo "		<div class=\"form-box\" data-errormsg=\"\">\n";
+echo "            <label for=\"input-undergradOr\">student status</label>\n";
+echo "            <input type=\"email\" id=\"input-major\" required placeholder=\"student status \" tabindex=\"5\" />\n";
+echo "        </div>\n";
+echo "		\n";
+echo "        <div class=\"form-box\" data-errormsg=\"\">\n";
+echo "            <label for=\"input-course\">Courses Completed</label>\n";
+echo "            <select id=\"input-course\" tabindex=\"6\">\n";
+echo "                <option value=\"0\">CSE 3203 Mobile System Overview</option>\n";
+echo "                <option value=\"1\">IT 4213 Mobile App Development</option>\n";
+echo "                <option value=\"2\">IT 7113 Data Visualization</option>\n";
+echo "                <option value=\"3\">IT 6713 Business Intelligence</option>\n";
+echo "                <option value=\"4\">IT 5413 Software Design and Development</option>\n";
+echo "            </select>\n";
+echo "        </div>\n";
+echo "		\n";
+echo "		\n";
+echo "        <div class=\"form-box\" data-errormsg=\"\">\n";
+echo "            <label for=\"input-grade\">Grade achieved</label>\n";
+echo "            <select id=\"input-grade\" tabindex=\"7\">\n";
+echo "                <option value=\"0\">A+</option>\n";
+echo "                <option value=\"1\">A</option>\n";
+echo "                <option value=\"2\">B+</option>\n";
+echo "                <option value=\"3\">B</option>\n";
+echo "                <option value=\"4\">C+</option>\n";
+echo "				<option value=\"5\">C</option>\n";
+echo "                <option value=\"6\">D</option>\n";
+echo "				\n";
+echo "            </select>\n";
+echo "        </div>\n";
+echo "		\n";
+echo "		\n";
+echo "        <div class=\"form-box\" data-errormsg=\"\">\n";
+echo "            <label for=\"input-alive\">Is a Current Student?</label>\n";
+echo "            <input type=\"checkbox\" id=\"input-alive\" value=\"yes\" tabindex=\"8\" checked />\n";
+echo "        </div>\n";
+echo "        <div class=\"form-box\">\n";
+echo "            <button id=\"button-send\">Calculate</button>\n";
+echo "			<button id=\"button-send\">Validate</button>\n";
+echo "			<button id=\"button-send\">Submit</button>\n";
+echo "			<button id=\"button-cancel\">Cancel</button>\n";
+echo "			\n";
+echo "            \n";
+echo "        </div>\n";
+echo "    </form>\n";
+echo "    \n";
+echo "\n";
+echo "<br>\n";
+echo "	\n";
+echo "	</center>\n";
+echo "		<br>\n";
+echo "		<br>\n";
+echo "			\n";
+echo "		\n";
+echo "	<div>\n";
+echo "		<br>\n";
+echo "		<br>\n";
+echo "		<h5>Address: 1005 Paradise Rd, Atlanata, GA 30339. Phone: 404-345-6789</h5>\n";
+echo "		<br>\n";
+echo "\n";
+echo "	\n";
+echo "	</div>	\n";
+echo "\n";
+echo "<center>\n";
+echo "<h6>\n";
+echo "<table style=\"width:80%\">\n";
+echo "  <tr>\n";
+echo "    <th><a href=\"index.php\">Home Page</a></th>\n";
+echo "	<th><a href=\"aboutus.php\">About Us</a></th>\n";
+echo "    <th><a href=\"facultypage.php\">Faculty Page</a> </th>\n";
+echo "	<th><a href=\"resources.php\">Resources</a> </th>\n";
+echo "	<th><a href=\"appform.php\">Application Form</a> </th>\n";
+echo "	<th><a href=\"programs.php\">Programs</a> </th>\n";
+echo "	<th><a href=\"services.php\">Services</a> </th>\n";
 
-	<center><h1>Welcome to the Homepage of CARIT </h1></center>
-	
-
-
-<center>
-<h4>
-<table style="width:50%">
-  <tr>
-    <th><a href="index.php">Home Page</a></th>
-	<th><a href="aboutus.php">About Us</a></th>
-	<th><a href="resources.php">Resources</a> </th>
-	<th><a href="appform.php">Application Form</a> </th>
-	
-	
-  </tr>
-
-</table>
-</h4>
-</center>
-
-		<br>
-		<br>
-
-	
-<div>
-CARIT has four student assistant positions open in this upcoming Summer.
-In order to be considerd for such a position, a student has to complete some required courses and meet the minimum aversge grade of these required classes requirement".
-Purpose of this page is to make a form and check the eligibility for these positions.
-
-
-</div>
-<br>
-<br>
-<br>
-<br>
-
-
-<form id="form-user" action="#" method="post">
-        <div class="form-box error" data-errormsg="">
-            <label for="input-first">Enter your name</label>
-            <input type="text" id="input-first" autofocus placeholder="Name" tabindex="1"/>
-        </div>
-		
-        <div class="form-box" data-errormsg="">
-            <label for="input-email">E-mail address</label>
-            <input type="email" id="input-email" required placeholder="E-mail" tabindex="2" />
-        </div>
-		
-		<div class="form-box" data-errormsg="">
-            <label for="input-email">Mailing address</label>
-            <input type="email" id="input-mailing" required placeholder="Mailing Address" tabindex="3" />
-        </div>
-		
-		<div class="form-box" data-errormsg="">
-            <label for="input-undergradOr">Major</label>
-            <input type="email" id="input-major" required placeholder="Major" tabindex="4" />
-        </div>
-		
-		
-		<div class="form-box" data-errormsg="">
-            <label for="input-undergradOr">student status</label>
-            <input type="email" id="input-major" required placeholder="student status " tabindex="5" />
-        </div>
-		
-        <div class="form-box" data-errormsg="">
-            <label for="input-course">Courses Completed</label>
-            <select id="input-course" tabindex="6">
-                <option value="0">CSE 3203 Mobile System Overview</option>
-                <option value="1">IT 4213 Mobile App Development</option>
-                <option value="2">IT 7113 Data Visualization</option>
-                <option value="3">IT 6713 Business Intelligence</option>
-                <option value="4">IT 5413 Software Design and Development</option>
-            </select>
-        </div>
-		
-		
-        <div class="form-box" data-errormsg="">
-            <label for="input-grade">Grade achieved</label>
-            <select id="input-grade" tabindex="7">
-                <option value="0">A+</option>
-                <option value="1">A</option>
-                <option value="2">B+</option>
-                <option value="3">B</option>
-                <option value="4">C+</option>
-				<option value="5">C</option>
-                <option value="6">D</option>
-				
-            </select>
-        </div>
-		
-		
-        <div class="form-box" data-errormsg="">
-            <label for="input-alive">Is a Current Student?</label>
-            <input type="checkbox" id="input-alive" value="yes" tabindex="8" checked />
-        </div>
-        <div class="form-box">
-            <button id="button-send">Calculate</button>
-			<button id="button-send">Validate</button>
-			<button id="button-send">Submit</button>
-			<button id="button-cancel">Cancel</button>
-			
-            
-        </div>
-    </form>
-    
-
-<br>
-	
-	</center>
-		<br>
-		<br>
-			
-		
-	<div>
-		<br>
-		<br>
-		<h5>Address: 1005 Paradise Rd, Atlanata, GA 30339. Phone: 404-345-6789</h5>
-		<br>
-
-	
-	</div>	
-
-<center>
-<h4>
-<table style="width:50%">
-  <tr>
-    <th><a href="index.php">Home Page</a></th>
-	<th><a href="aboutus.php">About Us</a></th>
-	<th><a href="resources.php">Resources</a> </th>
-	<th><a href="appform.php">Application Form</a> </th>
-	
-	
-  </tr>
-
-</table>
-</h4>
-</center>
-
-	</body>
-</html>
+echo "	\n";
+echo "	\n";
+echo "  </tr>\n";
+echo "\n";
+echo "</table>\n";
+echo "</h6>\n";
+echo "</center>\n";
+echo "\n";
+echo "	</body>\n";
+echo "</html>\n";
+?>

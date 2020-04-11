@@ -29,7 +29,6 @@ echo "	<th><a href=\"resources.php\">Resources</a> </th>\n";
 echo "	<th><a href=\"appform.php\">Application Form</a> </th>\n";
 echo "	<th><a href=\"programs.php\">Programs</a> </th>\n";
 echo "	<th><a href=\"services.php\">Services</a> </th>\n";
-
 echo "	\n";
 echo "	\n";
 echo "  </tr>\n";
@@ -58,6 +57,7 @@ echo "\n";
 echo "<b> Position: </b> KSU Professor & MSIT Coordinator \n";
 echo "\n";
 echo "<br>";
+
 echo "<b>Phone: </b>(470) 578-3915\n";
 echo "<br>";
 echo "<b>Email: </b>lli13@kennesaw.edu\n";
